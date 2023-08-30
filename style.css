@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    height: 20vh;
+    width: 15vw;
+    font-size: 60px;
+    border: red solid 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameContainer{
+    width: 45vw;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    background-color: dodgerblue;
+    margin-left: 27.5vw;
+    margin-top: 20vh;
+}
+
+.one, .two,.three{
+    border-top: none;
+}
+
+.one, .four, .seven{
+    border-left: none;
+}
+
+.three, .six, .nine{
+    border-right: none;
+}
+
+.seven, .eight, .nine{
+    border-bottom: none;
+}
