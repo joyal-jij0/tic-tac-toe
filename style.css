@@ -21,8 +21,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0;
     background-color: dodgerblue;
-    margin-left: 27.5vw;
-    margin-top: 20vh;
+    margin-left: 2.5vw;
+    margin-top: 10vh;
 }
 
 .one, .two,.three{
@@ -39,4 +39,20 @@
 
 .seven, .eight, .nine{
     border-bottom: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+dialog{
+    margin-left: 36vw;
+    margin-top: 33vh;
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
